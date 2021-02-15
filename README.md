@@ -59,3 +59,15 @@ cargo b  # build
 cargo r  # (build &) run 
 cargo t  # test
 ```
+
+## Useful sources
+
+Sources which helped me to build this repository
+
+[Tiziano Santoro - Compile Rust for Raspberry Pi ARM](https://medium.com/swlh/compiling-rust-for-raspberry-pi-arm-922b55dbb050) - nice idea with deploy script
+
+[Disconnected Systems - Using Rust to Control a Raspberry Pi Zero W Rover](https://disconnected.systems/blog/rust-powered-rover/#using-rust-to-control-a-raspberry-pi-zero-w-rover) - `.cargo/config` setup
+
+[siscia@RedBeardLab - Rust and glibc version](https://redbeardlab.com/2019/05/07/rust-and-glibc-version/) - move from `arm-unknown-linux-gnueabihf` to `arm-unknown-linux-musleabihf`
+
+[FS#69567 - [binutils] missing libctf.so.0](https://bugs.archlinux.org/task/69567)
